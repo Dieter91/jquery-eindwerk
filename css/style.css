@@ -34,7 +34,11 @@ nav ul {
   width: 40%;
   list-style-type: none;
 }
-
+/* Headerbanner - Ciro */
+header{
+  display: flex;
+  justify-content: center;
+}
 /* Features - Dieter */
 #features {
   width: 100%;
