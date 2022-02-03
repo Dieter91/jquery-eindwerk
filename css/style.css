@@ -33,3 +33,8 @@ nav ul {
   width: 40%;
   list-style-type: none;
 }
+
+header{
+  display: flex;
+  justify-content: center;
+}
