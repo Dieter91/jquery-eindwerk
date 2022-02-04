@@ -97,9 +97,24 @@ nav ul {
   background-image: url("/images/features/opdracht.jpg");
 }
 
+#certificaat {
+  background-image: url("/images/features/certificaat.jpg");
+}
+
+#javascript {
+  background-image: url("/images/features/javascript.jpg");
+}
+
+#mobile {
+  background-image: url("/images/features/mobile.jpg");
+}
+
 #video:hover,
 #support:hover,
-#opdrachten:hover {
+#opdrachten:hover,
+#certificaat:hover,
+#javascript:hover,
+#mobile:hover {
   background-blend-mode: overlay;
 }
 
