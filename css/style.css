@@ -35,19 +35,24 @@ nav ul {
   list-style-type: none;
 }
 /* Headerbanner - Ciro */
-header{
+header {
   display: flex;
   justify-content: center;
 }
+header img {
+  width: 100%;
+}
 /* Features - Dieter */
 #features {
-  width: 100%;
+  width: 80%;
   background-color: #222222;
+  margin: auto;
+  margin-top: 4rem;
 }
 #features .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 80%;
+  width: 90%;
   margin: auto;
   grid-gap: 1.5rem;
   padding: 2rem;
@@ -62,7 +67,7 @@ header{
   align-items: center;
   justify-content: center;
   height: 10rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.555) 0px 5px 15px;
 }
 
 .feature h2 {
