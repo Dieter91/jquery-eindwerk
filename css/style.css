@@ -8,11 +8,10 @@ body {
 
 /* Banner Slider Ciro */
 .container{
-  width:101%;
+  width:100%;
   margin:auto;
   overflow: auto;
   overflow-x: hidden;
-
 }
 
 .slider-inner{
@@ -21,7 +20,6 @@ body {
   position: relative;
   overflow:hidden;
   float:left;
-  padding: 3px;
   border:#666 solid 1px;
 }
 
