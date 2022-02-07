@@ -30,7 +30,7 @@
             <div class="slider-outer">
                 <img src="images/arrow-left.png" class="prev" alt="Prev">
                 <div class="slider-inner">
-                    <img src="images/header1.png" class="active">
+                    <img src="images/header1.png" class="active-slide">
                     <img src="images/header2.png">
                     <img src="images/header3.png">
                     <img src="images/header4.jpg">
@@ -165,21 +165,21 @@
             //begin code Ciro//
             $(document).ready(function () {
                 $('.next').on('click', function () {
-                    let currentImg = $('.active');
+                    let currentImg = $('.active-slide');
                     let nextImg = currentImg.next();
     
                     if (nextImg.length) {
-                        currentImg.removeClass('active').css('z-index', -10);
-                        nextImg.addClass('active').css('z-index', 10);
+                        currentImg.removeClass('active-slide').css('z-index', -10);
+                        nextImg.addClass('active-slide').css('z-index', 10);
                     }
                 });
                 $('.prev').on('click', function () {
-                    let currentImg = $('.active');
+                    let currentImg = $('.active-slide');
                     let prevImg = currentImg.prev();
     
                     if (prevImg.length) {
-                        currentImg.removeClass('active').css('z-index', -10);
-                        prevImg.addClass('active').css('z-index', 10);
+                        currentImg.removeClass('active-slide').css('z-index', -10);
+                        prevImg.addClass('active-slide').css('z-index', 10);
                     }
                 });
             });
