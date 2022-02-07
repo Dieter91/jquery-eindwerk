@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jQuery Cursus</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jquery.cardtabs.css" />
 </head>
 
 <body>
@@ -38,7 +39,74 @@
             </div>
         </div>
     </header>
-
+    <section id="info">
+        <div class="container">
+          <div class="tabs">
+            <div data-tab="Copy/Paste">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad
+                cum veniam nulla neque eius debitis recusandae nam, tempora autem
+                fugiat quaerat incidunt porro corrupti, maiores id, ducimus
+                accusantium cumque!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                amet adipisci tempore cumque unde eos fugit corporis voluptatum!
+                Soluta earum ratione explicabo architecto animi hic.
+              </p>
+            </div>
+            <div data-tab="Zelfstudie">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad
+                cum veniam nulla neque eius debitis recusandae nam, tempora autem
+                fugiat quaerat incidunt porro corrupti, maiores id, ducimus
+                accusantium cumque!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                amet adipisci tempore cumque unde eos fugit corporis voluptatum!
+                Soluta earum ratione explicabo architecto animi hic.
+              </p>
+            </div>
+            <div data-tab="Google is my only friend">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad
+                cum veniam nulla neque eius debitis recusandae nam, tempora autem
+                fugiat quaerat incidunt porro corrupti, maiores id, ducimus
+                accusantium cumque!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                amet adipisci tempore cumque unde eos fugit corporis voluptatum!
+                Soluta earum ratione explicabo architecto animi hic.
+              </p>
+            </div>
+            <div data-tab="Dieter knows all">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad
+                cum veniam nulla neque eius debitis recusandae nam, tempora autem
+                fugiat quaerat incidunt porro corrupti, maiores id, ducimus
+                accusantium cumque!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                amet adipisci tempore cumque unde eos fugit corporis voluptatum!
+                Soluta earum ratione explicabo architecto animi hic.
+              </p>
+            </div>
+          </div>
+          <div class="cursus-info">
+            <img
+              src="./images/businessman-promoter-holding-megaphone-loudspeaker-vector-37538236.jpg"
+              alt=""
+            />
+            <h2>Cursusinformatie</h2>
+            <h3>Kostprijs: €94</h3>
+            <p>Deze cursus start in september</p>
+            <a href="#" class="btn">Schrijf je in</a>
+          </div>
+        </div>
+        </section>
     <section id="features">
         <div class="container">
             <div class="feature" id="video">
@@ -89,32 +157,34 @@
     </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./js/app.js"></script>
+        <script src="js/jquery.cardtabs.js"></script>
+        <script src="./js/app.js"></script>
+    
 
-    <script>
-        //begin code Ciro//
-        $(document).ready(function () {
-            $('.next').on('click', function () {
-                let currentImg = $('.active');
-                let nextImg = currentImg.next();
-
-                if (nextImg.length) {
-                    currentImg.removeClass('active').css('z-index', -10);
-                    nextImg.addClass('active').css('z-index', 10);
-                }
+        <script>
+            //begin code Ciro//
+            $(document).ready(function () {
+                $('.next').on('click', function () {
+                    let currentImg = $('.active');
+                    let nextImg = currentImg.next();
+    
+                    if (nextImg.length) {
+                        currentImg.removeClass('active').css('z-index', -10);
+                        nextImg.addClass('active').css('z-index', 10);
+                    }
+                });
+                $('.prev').on('click', function () {
+                    let currentImg = $('.active');
+                    let prevImg = currentImg.prev();
+    
+                    if (prevImg.length) {
+                        currentImg.removeClass('active').css('z-index', -10);
+                        prevImg.addClass('active').css('z-index', 10);
+                    }
+                });
             });
-            $('.prev').on('click', function () {
-                let currentImg = $('.active');
-                let prevImg = currentImg.prev();
-
-                if (prevImg.length) {
-                    currentImg.removeClass('active').css('z-index', -10);
-                    prevImg.addClass('active').css('z-index', 10);
-                }
-            });
-        });
-        //einde code Ciro//
-    </script>
+            //einde code Ciro//
+        </script>
 </body>
 
 </html>
