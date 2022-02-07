@@ -10,6 +10,4 @@ $(document).ready(function() {
             $(this).children('h2').stop().show().fadeTo( "slow" , 1);
         }
     )
-    //INFO TABS == DIETER
-    $('.tabs').cardTabs({'theme': 'themakleur'});
 });
