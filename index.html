@@ -11,9 +11,16 @@
 
   <body>
     <nav>
-      <div class="container">
-        <div class="logo">
-          <h1>Jquery</h1>
+        <div class="container">
+            <div class="logo">
+                <h1>jQuery</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="informatie.html">Informatie</a></li>
+                <li><a href="demos.html">Demo's</a></li>
+                <li><a href="inschrijven.html">Inschrijven</a></li>
+            </ul>
         </div>
         <ul>
           <li><a href="#">Informatie</a></li>
@@ -81,6 +88,66 @@
               Soluta earum ratione explicabo architecto animi hic.
             </p>
           </div>
+        <div class="container">
+            <div class="slider-outer">
+                <img src="images/arrow-left.png" class="prev" alt="Prev">
+                <div class="slider-inner">
+                    <img src="images/header1.png" class="active">
+                    <img src="images/header2.png">
+                    <img src="images/header3.png">
+                    <img src="images/header4.jpg">
+                </div>
+                <img src="images/arrow-right.png" class="next" alt="Next">
+            </div>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="container">
+            <div class="feature" id="video">
+                <h2>Video's</h2>
+                <div class="info">
+                    <p>Via deze cursus heb je toegang tot alle nodige videos om jquery thuis op eigen tempo te leren.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="feature" id="support">
+                <h2>Ondersteuning</h2>
+                <div class="info">
+                    <p>Ondersteuning van een échte leerkracht via email of videochat.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="feature" id="opdrachten">
+                <h2>Opdrachten</h2>
+                <div class="info">
+                    <p>Een heleboel opdrachten die je helpen om de inhoud beter te begrijpen.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="feature" id="certificaat">
+                <h2>Certificaat</h2>
+                <div class="info">
+                    <p>Een officieel certificaat afgeleverd door CVO De Verdieping</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="feature" id="javascript">
+                <h2>Javascript</h2>
+                <div class="info">
+                    <p>Leer de basis van javascript, zoals variabelen, functies, strings, arrays en nog veel meer!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="feature" id="mobile">
+                <h2>Mobile</h2>
+                <div class="info">
+                    <p>Leer zowel met jquery werken voor desktops als voor mobiel..</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
         </div>
         <div class="cursus-info">
           <img
@@ -159,4 +226,35 @@
     <script src="./js/jquery.cardtabs.js"></script>
     <script src="./js/app.js"></script>
   </body>
+</html>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+
+    <script>
+        //begin code Ciro//
+        $(document).ready(function () {
+            $('.next').on('click', function () {
+                let currentImg = $('.active');
+                let nextImg = currentImg.next();
+
+                if (nextImg.length) {
+                    currentImg.removeClass('active').css('z-index', -10);
+                    nextImg.addClass('active').css('z-index', 10);
+                }
+            });
+            $('.prev').on('click', function () {
+                let currentImg = $('.active');
+                let prevImg = currentImg.prev();
+
+                if (prevImg.length) {
+                    currentImg.removeClass('active').css('z-index', -10);
+                    prevImg.addClass('active').css('z-index', 10);
+                }
+            });
+        });
+        //einde code Ciro//
+    </script>
+</body>
+
 </html>
