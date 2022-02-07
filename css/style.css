@@ -83,22 +83,26 @@ nav ul {
   width: 40%;
   list-style-type: none;
 }
+/*Einde code Dieter */
 /* Headerbanner - Ciro */
-header{
+header {
   display: flex;
   justify-content: center;
   margin: auto;
 }
 /*Einde code Ciro*/
+
 /* Features - Dieter */
 #features {
-  width: 100%;
+  width: 80%;
   background-color: #222222;
+  margin: auto;
+  margin-top: 4rem;
 }
 #features .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 80%;
+  width: 90%;
   margin: auto;
   grid-gap: 1.5rem;
   padding: 2rem;
@@ -113,7 +117,7 @@ header{
   align-items: center;
   justify-content: center;
   height: 10rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.555) 0px 5px 15px;
 }
 
 .feature h2 {
@@ -152,9 +156,24 @@ header{
   background-image: url("/images/features/opdracht.jpg");
 }
 
+#certificaat {
+  background-image: url("/images/features/certificaat.jpg");
+}
+
+#javascript {
+  background-image: url("/images/features/javascript.jpg");
+}
+
+#mobile {
+  background-image: url("/images/features/mobile.jpg");
+}
+
 #video:hover,
 #support:hover,
-#opdrachten:hover {
+#opdrachten:hover,
+#certificaat:hover,
+#javascript:hover,
+#mobile:hover {
   background-blend-mode: overlay;
 }
 
