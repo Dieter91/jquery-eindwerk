@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textillate</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/demos.css">
+
+</head>
+
+<body>
+    <div class="main-content">
+        <h1 class="tlt">
+            <ul class="texts">
+                <li data-out-effect="rollIn" data-out-shuffle="true">Roll-In Title</li>
+                <li data-in-effect="rollOut" data-out-shuffle="true">Roll-Out Title</li>
+            </ul>
+        </h1>
+        <h2>with rolling text:</h2>
+        <p class="tlt" data-in-effect="rollIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor
+            odio,
+            repellendus ducimus repellat iusto!
+        </p>
+
+
+        <h1 class="tlt">
+            <ul class="texts">
+                <li data-out-effect="fadeOut" data-out-shuffle="true">Fade-Out Title</li>
+                <li data-in-effect="fadeIn" data-out-shuffle="true">Fade-In Title</li>
+            </ul>
+        </h1>
+        <h2>with fade in text:</h2>
+        <p class="tlt" data-in-effect="fadeIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor
+            odio,
+            repellendus ducimus repellat iusto!
+        </p>
+
+        <h1 class="tlt" data-in-effect="wobble">Wobble Title</h1>
+        <h2>with wobbly text:</h2>
+        <p class="tlt" data-in-effect="wobble">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor
+            odio,
+            repellendus ducimus repellat iusto!
+        </p>
+
+        <h1 class="tlt" data-in-effect="bounce">Bounce Title</h1>
+        <h2>with bouncy text:</h2>
+        <p class="tlt" data-in-effect="bounce">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor
+            odio,
+            repellendus ducimus repellat iusto!
+        </p>
+
+        <h1 class="tlt" data-in-effect="pulse">Pulse Title</h1>
+        <h2>with pulsing text:</h2>
+        <p class="tlt" data-in-effect="pulse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor odio,
+            repellendus ducimus repellat iusto!
+        </p>
+
+        <h1 class="tlt" data-in-effect="swing">Swing Title</h1>
+        <h2>with swinging text:</h2>
+        <p class="tlt" data-in-effect="swing">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor odio,
+            repellendus ducimus repellat iusto!
+        </p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script>
+        /* begin code Ciro */
+        $(function () {
+            $('.tlt').textillate({
+                loop: true,
+                minDisplayTime: 2000,
+                initialDelay: 0,
+                autoStart: true,
+
+                in: {
+                    delayScale: 1.5,
+                    delay: 50,
+                    sync: true,
+                    shuffle: false,
+                    reverse: true,
+                },
+
+                out: {
+                    effect: 'hinge',
+                    delayScale: 1.5,
+                    delay: 10,
+                    sync: false,
+                    shuffle: true,
+                    reverse: false,
+                },
+
+                callback: function () { },
+                type: 'char'
+
+            });
+        });
+        /* einde code Ciro */
+
+    </script>
+</body>
+
+</html>
