@@ -11,6 +11,5 @@ $(document).ready(function () {
         }
     )
 
-
-
+    $('.tabs').cardTabs({ 'theme': 'themakleur' });
 });
