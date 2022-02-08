@@ -195,6 +195,21 @@ nav ul {
 .demo a {
   color:#ef3455;
 }
+/*demo's Ciro */
+.demos_heading{
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+  font-size: 2em;
+  color: #ef3455;
+
+}
+
+.demos_p{
+  padding: 30px;
+}
+
+/* einde code Ciro */
 /* INFO == DIETER */
 
 #info {
@@ -240,7 +255,7 @@ nav ul {
   color: white;
   text-decoration: none;
 }
-/* einde code Yens*/
+/* einde code Dieter*/
 
 /* Footer Yens */
 .container_form {
