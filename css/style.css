@@ -185,6 +185,10 @@ nav ul {
   margin-top: 4rem;
 }
 
+#info p {
+  color:rgb(36, 36, 36);
+}
+
 #info .container {
   display: flex;
   flex-direction: row;
