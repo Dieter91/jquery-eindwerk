@@ -177,6 +177,24 @@ nav ul {
 }
 /*Einde code Dieter */
 
+/* dieter demos */
+
+#demos .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin:auto;
+  gap: 1rem;
+}
+
+.demo {
+  display:flex;
+  flex-direction: column;
+}
+
+.demo a {
+  color:#ef3455;
+}
 /* INFO == DIETER */
 
 #info {

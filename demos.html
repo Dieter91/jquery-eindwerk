@@ -22,88 +22,30 @@
             </ul>
         </div>
     </nav>
-
-    <h1>Voorbeelden van jQuery plug-ins</h1>
-
-    <section id="features">
+    <section id="demos">
+        <h1>Voorbeelden van jQuery plug-ins</h1>
         <div class="container">
-            <div class="feature" id="textillate">
-                <h2>Textillate</h2>
-                <div class="info">
-                    <p>Een plug-in voor talloze text-animaties!
-                    </p>
-                    <a href="textillate.html" target="_blank">Toon demo</a>
-                </div>
-            </div>
-            <div class="feature" id="textillate">
-                <h2>Textillate</h2>
-                <div class="info">
-                    <p>Een plug-in voor talloze text-animaties!
-                    </p>
-                    <a href="textillate.html" target="_blank">Toon demo</a>
-                </div>
-            </div>
-            <div class="feature" id="textillate">
-                <h2>Textillate</h2>
-                <div class="info">
-                    <p>Een plug-in voor talloze text-animaties!
-                    </p>
-                    <a href="textillate.html" target="_blank">Toon demo</a>
-                </div>
-            </div>
-            <div class="feature" id="textillate">
-                <h2>Textillate</h2>
-                <div class="info">
-                    <p>Een plug-in voor talloze text-animaties!
-                    </p>
-                    <a href="textillate.html" target="_blank">Toon demo</a>
-                </div>
-            </div>
-            <div class="feature" id="textillate">
-                <h2>Textillate</h2>
-                <div class="info">
-                    <p>Een plug-in voor talloze text-animaties!
-                    </p>
-                    <a href="textillate.html" target="_blank">Toon demo</a>
-                </div>
-            </div>
-            <div class="feature" id="textillate">
-                <h2>Textillate</h2>
-                <div class="info">
-                    <p>Een plug-in voor talloze text-animaties!
-                    </p>
-                    <a href="textillate.html" target="_blank">Toon demo</a>
-                </div>
-            </div>
+            
         </div>
     </section>
-    <p></p>
-    <footer>
-        <div class="footer_container">
-            <div class="footer_container1">
-                <img src="images/logo.png" alt="logo vschool">
-            </div>
-            <div class="footer_container2">
-                <h2>Pagina's</h2>
-                <ul>
-                    <li>Cursussen</li>
-                    <li>Opleidingen</li>
-                    <li>Over ons</li>
-                </ul>
-            </div>
-            <div class="footer_container3">
-                <h2>Contacteer ons</h2>
-                <ul>
-                    <li>0488277995</li>
-                    <li>Lodewijk Dosfellaan 2</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
+
+    <script>
+        $.getJSON('./js/json/demos.json', function (data) {
+        $.each(data, function (i, demo) {
+            const naam = '<h2>Naam: ' + demo.naam + '</h2>';
+            const info = '<p>Info: ' + demo.info + '</p>';
+            const link = '<a href="' + demo.link +'">Klik hier om de demo te bekijken</a>';
+            const img = '<img src="img/' + demo.img + '">'
+
+            const html = '<div class="demo">' + naam + info + img + link + '</div>';
+            $('#demos .container').append(html);
+        })
+    })
+    </script>
 
 </body>
 

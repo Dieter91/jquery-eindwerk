@@ -10,5 +10,6 @@ $(document).ready(function () {
             $(this).children('h2').stop().show().fadeTo("slow", 1);
         }
     )
+
     $('.tabs').cardTabs({ 'theme': 'themakleur' });
 });
