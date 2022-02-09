@@ -35,4 +35,20 @@ $(document).ready(function () {
     )
 
     $('.tabs').cardTabs({ 'theme': 'themakleur' });
+
+    //back-to-top == DIETER
+
+    const backToTop = $('#back-to-top')
+    backToTop.on('click', function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 500);
+    })
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 100) {
+            backToTop.css('display', 'flex');
+        } else {
+            backToTop.hide();
+        }
+    })
 });
