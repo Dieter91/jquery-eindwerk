@@ -59,8 +59,6 @@ nav {
   width: 100%;
   background-color: #ef3455;
   color: #fff;
-  position: fixed;
-  z-index: 99999;
 }
 
 nav a {
