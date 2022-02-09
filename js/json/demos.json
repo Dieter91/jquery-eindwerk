@@ -6,8 +6,8 @@
         "img": "../images/demos/textillate.png"
     },
     {
-        "naam": "Textillate",
-        "info": "Een plug-in voor talloze text-animaties!",
+        "naam": "Fancy Table",
+        "info": "Deze plug-in laat je toe naar informatie in een html table te zoeken.",
         "link": "fancy.html",
         "img": "../images/demos/fancy.jpg"
     },
