@@ -60,7 +60,7 @@ nav {
   background-color: #ef3455;
   color: #fff;
   position: fixed;
-  z-index: 99999;
+  z-index: 9999git a9;
 }
 
 nav a {
@@ -198,7 +198,9 @@ nav ul {
 .demo a {
   color:#ef3455;
 }
-
+.demo p {
+  color:rgb(36, 36, 36);
+}
 /*demo's Ciro */
 .demos_heading{
   display: flex;
