@@ -361,3 +361,22 @@ footer {
   padding-bottom: 40px;
 }
 /* einde code Yens*/
+
+/*dieter back 2 top */
+#back-to-top {
+  background-color: #ef3455;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  z-index: 9999;
+  display:  none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.555) 0px 5px 15px;
+  cursor: pointer;
+}
