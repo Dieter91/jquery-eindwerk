@@ -3,13 +3,24 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
 }
 
 /* Banner Slider Ciro */
-header .container{
-  overflow: auto;
-  overflow-x: hidden;
+
+.slider {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100vw;
+  height:auto;
+}
+
+.slider>div {
+  position: absolute;
+
 }
 
 .prev,.next{
@@ -20,14 +31,13 @@ header .container{
 .prev{
   position: absolute;
   margin-left: 20px;
-  z-index: 100;
+  z-index: 999;
 }
 
 .next{
-  right:0;
-;
+  right: 25px;
   position: absolute;
-  z-index: 100;
+  z-index: 999;
 }
 /*Einde code Ciro*/
 
@@ -41,8 +51,7 @@ nav {
 nav a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
-  
+  font-weight: bold;  
 }
 
 nav .container {
@@ -176,6 +185,7 @@ nav ul {
 .demo p {
   color:rgb(36, 36, 36);
 }
+/* einde code Dieter */
 /*demo's Ciro */
 .demos_heading{
   display: flex;
@@ -357,3 +367,4 @@ footer {
   box-shadow: rgba(0, 0, 0, 0.555) 0px 5px 15px;
   cursor: pointer;
 }
+/* einde code Dieter */
