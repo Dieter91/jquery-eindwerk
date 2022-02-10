@@ -8,35 +8,11 @@ body {
 
 /* Banner Slider Ciro */
 header .container{
-  width:100%;
-  margin:auto;
   overflow: auto;
   overflow-x: hidden;
 }
 
-.slider-inner{
-  width: 100%;
-  height: 450px;
-  position: relative;
-  overflow:hidden;
-  float:left;
-  border:#666 solid 1px;
-}
-
-.slider-inner img{
-  display: none;
-  width: 100%;
-  align-self: center;
-  justify-content: center;
-  height: 450px;
-}
-
-.slider-inner img.active-slide{
-  display: inline-block;
-}
-
 .prev,.next{
-  float: left;
   margin-top: 200px;
   cursor:pointer;
 }
@@ -48,8 +24,9 @@ header .container{
 }
 
 .next{
+  right:0;
+;
   position: absolute;
-  margin-left: -75px;
   z-index: 100;
 }
 /*Einde code Ciro*/

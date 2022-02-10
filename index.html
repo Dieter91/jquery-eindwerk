@@ -12,6 +12,22 @@
 
 
   <link rel="stylesheet" type="text/css" href="css/jquery-social-share-bar.css">
+  <style>
+    .slider-inner {
+      position: relative;
+      height: 450px;
+      overflow: hidden;
+    }
+
+    .slider-inner img {
+      width: 100vw;
+    }
+
+    .slider-inner>div {
+      position: absolute;
+
+    }
+  </style>
 </head>
 
 <body>
@@ -31,17 +47,27 @@
   </nav>
   <header>
     <div class="container">
-      <div class="slider-outer">
-        <img src="images/arrow-left.png" class="prev" alt="Prev">
-        <div class="slider-inner">
-          <img src="images/header1.png" class="active-slide">
+
+      <img src="images/arrow-left.png" class="prev" alt="Prev">
+
+      <img src="images/arrow-right.png" class="next" alt="Next">
+      <div class="slider-inner">
+        <div>
+          <img src="images/header1.png">
+        </div>
+        <div>
           <img src="images/header2.png">
+        </div>
+        <div>
           <img src="images/header3.png">
+        </div>
+        <div>
           <img src="images/header4.jpg">
         </div>
-        <img src="images/arrow-right.png" class="next" alt="Next">
       </div>
+
     </div>
+
   </header>
   <section id="info">
     <div class="container">
@@ -193,6 +219,37 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"
     integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn"
     crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".slider-inner > div:gt(0)").hide();
+
+      setInterval(function () {
+        $('.slider-inner > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('.slider-inner');
+      }, 6000);
+      $('.next').on('click', function () {
+        $('.slider-inner > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('.slider-inner');
+      });
+      $('.prev').on('click', function () {
+        $('.slider-inner > div:last')
+          .fadeOut(1000)
+          .prev()
+          .fadeIn(1000)
+          .end()
+          .prependTo('.slider-inner');
+      });
+    });
+  </script>
 
 </body>
 
