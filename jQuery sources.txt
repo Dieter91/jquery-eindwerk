@@ -19,8 +19,9 @@ Zelf geschreven met behulp api
 
 ==Banner Slider / Ciro== (meermaals opnieuw) Gemaakt met behulp van:
 https://www.youtube.com/watch?v=J2HLW4A40X8  (werkte prima, maar had geen autoslider of infinite)
-https://www.youtube.com/watch?v=YazLHuazvgk&t=615s (kreeg ik niet aan het werk)
-https://skitter-slider.net/ (uiteindelijk toch maar een plug-in genomen)
+https://www.youtube.com/watch?v=YazLHuazvgk&t=615s  (kreeg ik niet aan het werk)
+https://skitter-slider.net/  (wat complexere plugin, maar niet gekozen vanwege aantal reeds gebruikte plug-ins)
+https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/ (uiteindelijk deze als basis gebruikt met wat custom made/zelfgeschreven script erbij)
 
 ==Textillate / Ciro==
 https://textillate.js.org/
