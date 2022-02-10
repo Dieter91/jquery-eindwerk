@@ -63,15 +63,5 @@ $(document).ready(function () {
     $('#share-bar').share({
         theme: 'square'
     });
+
     //Einde code Dieter// 
-
-    //Begin code Yens//
-    $('#succes').hide();
-    $(function () {
-
-        // shows succes message
-        $('#myForm').ajaxForm(function () {
-            $('#succes').show();
-        });
-    });//Einde code Yens// 
-}); 

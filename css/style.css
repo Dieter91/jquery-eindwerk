@@ -261,7 +261,7 @@ a.btn {
 }
 /* einde code Dieter*/
 
-/* Footer Yens */
+/* Begin code Yens */
 .container_form {
   display: flex;
   flex-direction: row;
@@ -300,6 +300,10 @@ a.btn {
 .container_right h2,
 p {
   color: white;
+}
+.container_right_in_container h5{
+  font-weight: bold;
+  font-size: 15px;
 }
 ::placeholder {
   font-style: verdana;
