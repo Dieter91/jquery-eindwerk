@@ -11,7 +11,7 @@ body {
   position: relative;
   height: 450px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0,0,0,1)
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 
 .slider img {
@@ -19,23 +19,23 @@ body {
   height: 25vw;
 }
 
-.slider>div {
+.slider > div {
   position: absolute;
-
 }
 
-.prev,.next{
+.prev,
+.next {
   margin-top: 200px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.prev{
+.prev {
   position: absolute;
   margin-left: 20px;
   z-index: 999;
 }
 
-.next{
+.next {
   right: 25px;
   position: absolute;
   z-index: 999;
@@ -52,7 +52,7 @@ nav {
 nav a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 nav .container {
@@ -163,6 +163,7 @@ nav ul {
   opacity: 0;
   text-align: center;
 }
+
 /*Einde code Dieter */
 
 /* dieter demos */
@@ -171,33 +172,32 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 80%;
-  margin:auto;
+  margin: auto;
   gap: 1rem;
 }
 
 .demo {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
 .demo a {
-  color:#ef3455;
+  color: #ef3455;
 }
 .demo p {
-  color:rgb(36, 36, 36);
+  color: rgb(36, 36, 36);
 }
 /* einde code Dieter */
 /*demo's Ciro */
-.demos_heading{
+.demos_heading {
   display: flex;
   justify-content: center;
   padding: 45px;
   font-size: 2em;
   color: #ef3455;
-
 }
 
-.demos_p{
+.demos_p {
   padding: 30px;
 }
 
@@ -211,7 +211,7 @@ nav ul {
 }
 
 #info p {
-  color:rgb(36, 36, 36);
+  color: rgb(36, 36, 36);
 }
 
 #info .container {
@@ -240,12 +240,24 @@ nav ul {
 .cursus-info img {
   width: 100%;
 }
+.cursus-info a {
+  color: #ef3455;
+  font-weight: bold;
+  text-decoration: none;
+}
 
+.cursus-info p {
+  padding: 1rem;
+}
 .btn {
   padding: 1rem 2rem;
   background-color: #ef3455;
   color: white;
   text-decoration: none;
+}
+
+a.btn {
+  color: white;
 }
 /* einde code Dieter*/
 
@@ -256,10 +268,9 @@ nav ul {
   justify-content: center;
   align-items: center;
   margin: 60px 0px;
- 
 }
 
-.container_left{
+.container_left {
   background-image: url("../images/code.png");
   background-position: center;
   background-size: cover;
@@ -278,16 +289,16 @@ nav ul {
 }
 .container_right_in_container {
   padding-left: 300px;
-  
 }
-.container_right button{
+.container_right button {
   margin-top: 15px;
   background-color: grey;
   color: white;
   padding: 10px 20px;
   border: none;
 }
-.container_right h2, p{
+.container_right h2,
+p {
   color: white;
 }
 ::placeholder {
@@ -295,9 +306,9 @@ nav ul {
   color: black;
   padding: 5px;
 }
-input {  
+input {
   width: 230px;
-  padding: 5px; 
+  padding: 5px;
 }
 
 .footer_container {
@@ -311,7 +322,6 @@ input {
 .footer_container1 {
   width: 10%;
   align-content: center;
-  
 }
 .footer_container1 img {
   width: 100%;
@@ -325,11 +335,13 @@ input {
   list-style-type: none;
   padding-left: 0px;
 }
-.footer_container2  li, .footer_container3 li {
+.footer_container2 li,
+.footer_container3 li {
   padding-top: 10px;
   color: white;
 }
-.footer_container2 li:first-child, .footer_container3 li:first-child {
+.footer_container2 li:first-child,
+.footer_container3 li:first-child {
   padding-top: 0px;
 }
 
@@ -341,7 +353,6 @@ input {
   list-style-type: none;
   padding-left: 0;
 }
-
 
 footer {
   background-color: gray;
@@ -360,7 +371,7 @@ footer {
   height: 100px;
   position: fixed;
   z-index: 9999;
-  display:  none;
+  display: none;
   justify-content: center;
   align-items: center;
   color: white;
