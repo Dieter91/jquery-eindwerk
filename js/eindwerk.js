@@ -20,6 +20,8 @@ $(document).ready(function () {
     });
     //einde code Ciro//
 
+
+
     // FEATURES MOUSE OVER == DIETER
     $('.feature').hover(
         function () {
@@ -63,5 +65,4 @@ $(document).ready(function () {
             $('#succes').show();
         });
     });
-    //Einde code Yens //
-});
+}); //Einde code Yens// 
