@@ -157,12 +157,14 @@
         <div class="container_right_in_container">
           <h2>Schrijf je in voor de cursus!</h2>
           <p>Vul hieronder je gegevens in</p>
-          <form action="">
+          <form id="myForm">
             <input type="text" id="name" name="name" placeholder="Naam"><br><br>
             <input type="email" id="email" name="email" placeholder="E-mailadres"><br><br>
-            <input type="text" id="telnr" name="telnr" placeholder="Telefoonnummer">
+            <input type="text" id="telnr" name="telnr" placeholder="Telefoonnummer"><br><br>
+            <input class="knop" type="submit" value="Verzenden">
+            <p id="succes">Bericht succesvol verzonden</p>
           </form>
-          <button onclick="window.location.href='https:/google.com';">Verzenden</button>
+
         </div>
       </div>
     </div>
@@ -196,6 +198,10 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/jquery.cardtabs.js"></script>
   <script src="./js/eindwerk.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"
+    integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
