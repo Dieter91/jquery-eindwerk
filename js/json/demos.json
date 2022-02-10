@@ -12,15 +12,15 @@
         "img": "../images/demos/fancy.jpg"
     },
     {
-        "naam": "Textillate",
+        "naam": "Yens",
         "info": "Een plug-in voor talloze text-animaties!",
         "link": "textillate.html",
         "img": "../images/demos/textillate.png"
     },
     {
-        "naam": "Textillate",
-        "info": "Een plug-in voor talloze text-animaties!",
-        "link": "textillate.html",
-        "img": "../images/demos/textillate.png"
+        "naam": "Planetarium",
+        "info": "Captain Planet, he's a hero!",
+        "link": "planetarium.html",
+        "img": "../images/demos/planetarium.png"
     }
 ]
