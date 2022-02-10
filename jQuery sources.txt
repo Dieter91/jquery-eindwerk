@@ -1,0 +1,29 @@
+==SOCIALS / DIETER==
+https://viima.github.io/jquery-social-share-bar
+
+==Fancy Tables / DIETER==
+https://github.com/myspace-nu/jquery.fancyTable
+
+==Card Tabs / DIETER==
+https://cardtabs.js.org/
+
+==json/ajax op demo pagina / DIETER ==
+Gemaakt met behulp jquery cursus
+
+==Features section / DIETER==
+Gemaakt met behulp jquery cursus
+
+==Back to Top / Dieter==
+Zelf geschreven met behulp api
+
+
+==Banner Slider / Ciro== (meermaals opnieuw) Gemaakt met behulp van:
+https://www.youtube.com/watch?v=J2HLW4A40X8  (werkte prima, maar had geen autoslider of infinite)
+https://www.youtube.com/watch?v=YazLHuazvgk&t=615s (kreeg ik niet aan het werk)
+https://skitter-slider.net/ (uiteindelijk toch maar een plug-in genomen)
+
+==Textillate / Ciro==
+https://textillate.js.org/
+
+==Planetarium / Ciro==
+https://github.com/peachananr/planetarium
