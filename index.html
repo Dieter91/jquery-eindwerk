@@ -8,15 +8,16 @@
   <title>jQuery Cursus</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/jquery.cardtabs.css" />
+  <link rel="stylesheet" type="text/css" href="./css/jquery-social-share-bar.css">
   <link type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js">
 
-  <link rel="stylesheet" type="text/css" href="css/jquery-social-share-bar.css">
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js">
 
 <body>
   <!-- SOCIALS == DIETER -->
   <div id="share-bar"></div>
+  <!-- EINDE SOCIALS DIETER-->
+  <!-- NAV == DIETER -->
   <nav>
     <div class="container">
       <div class="logo">
@@ -29,73 +30,62 @@
       </ul>
     </div>
   </nav>
+  <!-- EINDE NAV DIETER-->
+  <!-- SLIDER == CIRO -->
   <header>
     <div class="container">
-      <div class="slider-outer">
-        <img src="images/arrow-left.png" class="prev" alt="Prev">
-        <div class="slider-inner">
-          <img src="images/header1.png" class="active-slide">
-          <img src="images/header2.png">
-          <img src="images/header3.png">
-          <img src="images/header4.jpg">
+      <img src="images/arrow-left.png" class="prev" alt="Prev">
+      <img src="images/arrow-right.png" class="next" alt="Next">
+      <div class="slider">
+        <div>
+          <img src="images/headers/header1.png">
         </div>
-        <img src="images/arrow-right.png" class="next" alt="Next">
+        <div>
+          <img src="images/headers/header2.jpg">
+        </div>
+        <div>
+          <img src="images/headers/header3.png">
+        </div>
+        <div>
+          <img src="images/headers/header4.jpeg">
+        </div>
       </div>
     </div>
   </header>
+  <!-- EINDE SLIDER CIRO-->
+  <!--DIETER == INFO-->
   <section id="info">
     <div class="container">
       <div class="tabs">
-        <div data-tab="Copy/Paste">
+        <div data-tab="jQuery">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad
-            cum veniam nulla neque eius debitis recusandae nam, tempora autem
-            fugiat quaerat incidunt porro corrupti, maiores id, ducimus
-            accusantium cumque!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            amet adipisci tempore cumque unde eos fugit corporis voluptatum!
-            Soluta earum ratione explicabo architecto animi hic.
+            Programmeer eenvoudig en snel met jQuery. Deze rijke, snelle en elegante uitbreiding op JavaScript is open
+            source – er is een uitgebreide documentatie voorzien en een zeer actieve community. Daardoor wordt er heel
+            regelmatig een update uitgebracht en verschijnen er constant nieuwe plugins. jQuery is een verzameling van
+            functies die de oorspronkelijke JavaScript functies uitbreiden. Je hebt complete controle over de DOM
+            (Document Object Model), met andere woorden de elementen in je HTML-pagina. jQuery ondersteunt alle
+            populaire en minder populaire browsers.
           </p>
         </div>
-        <div data-tab="Zelfstudie">
+        <div data-tab="Digitale leeromgeving">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad
-            cum veniam nulla neque eius debitis recusandae nam, tempora autem
-            fugiat quaerat incidunt porro corrupti, maiores id, ducimus
-            accusantium cumque!
+            Je leerkracht verzamelt het digitaal lesmateriaal op ons online leerplatform Moodle – cursuspagina's,
+            opdrachten, screencasts, ... Je vindt het hier allemaal terug voor elke cursus, workshop of opleiding
+            waarvoor je bent ingeschreven.
           </p>
+
+        </div>
+        <div data-tab="Voorvereisten">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            amet adipisci tempore cumque unde eos fugit corporis voluptatum!
-            Soluta earum ratione explicabo architecto animi hic.
+            Voor deze cursus zijn geen deelcertificaten of voorvereisten nodig. Al is het wel zeer sterk aangeraden een
+            basis kennis van computers en html/css te hebben.
           </p>
         </div>
-        <div data-tab="Google is my only friend">
+        <div data-tab="Kwalificatie">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad
-            cum veniam nulla neque eius debitis recusandae nam, tempora autem
-            fugiat quaerat incidunt porro corrupti, maiores id, ducimus
-            accusantium cumque!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            amet adipisci tempore cumque unde eos fugit corporis voluptatum!
-            Soluta earum ratione explicabo architecto animi hic.
-          </p>
-        </div>
-        <div data-tab="Dieter knows all">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad
-            cum veniam nulla neque eius debitis recusandae nam, tempora autem
-            fugiat quaerat incidunt porro corrupti, maiores id, ducimus
-            accusantium cumque!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            amet adipisci tempore cumque unde eos fugit corporis voluptatum!
-            Soluta earum ratione explicabo architecto animi hic.
+            Deze cursus behoort tot het opleidingsprofiel Webontwikkelaar van het secundair volwassenenonderwijs.
+            Wanneer je deze module succesvol beëindigt, ontvang je het deelcertificaat voor de volgende module:
+            Clientside-scripting
           </p>
         </div>
       </div>
@@ -105,9 +95,13 @@
         <h3>Kostprijs: €94</h3>
         <p>Deze cursus start in september</p>
         <a href="#" class="btn">Schrijf je in</a>
+        <p>De cursus jQuery maakt ook een onderdeel uit van onze voltijdse dagopleiding <a
+            href="https://www.cvodeverdieping.be/opleidingen/full-stack-webdeveloper">full-stack-webdeveloper</a>.</p>
       </div>
     </div>
   </section>
+  <!--EINDE INFO DIETER-->
+  <!-- FEATURES == DIETER -->
   <section id="features">
     <div class="container">
       <div class="feature" id="video">
@@ -155,6 +149,7 @@
       </div>
     </div>
   </section>
+  <!-- INSCHRIJVEN == YENS -->
   <section>
     <div class="container_form">
       <div class="container_left">
@@ -186,6 +181,7 @@
       </div>
     </div>
   </section>
+  <!-- FOOTER == YENS -->
   <footer>
     <div class="footer_container">
       <div class="footer_container1">
@@ -211,8 +207,8 @@
   <div id="back-to-top">
     Back To Top
   </div>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-3.6.0.min.js"><\/script>')</script>
   <script type="text/javascript" src="js/jquery-social-share-bar.js"></script>
 
   <script src="js/jquery.cardtabs.js"></script>
@@ -222,6 +218,7 @@
     crossorigin="anonymous"></script>
   <script src="./js/form_validation.js"></script>
   <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+
 </body>
 
 </html>

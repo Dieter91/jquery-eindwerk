@@ -1,22 +1,30 @@
 //begin code Ciro//
 $(document).ready(function () {
+    $(".slider > div:gt(0)").hide();
+
+    setInterval(function () {
+        $('.slider > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('.slider');
+    }, 6000);
     $('.next').on('click', function () {
-        let currentImg = $('.active-slide');
-        let nextImg = currentImg.next();
-
-        if (nextImg.length) {
-            currentImg.removeClass('active-slide').css('z-index', -10);
-            nextImg.addClass('active-slide').css('z-index', 10);
-        }
+        $('.slider > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('.slider');
     });
-    $('.prev').on('click', function () {
-        let currentImg = $('.active-slide');
-        let prevImg = currentImg.prev();
-
-        if (prevImg.length) {
-            currentImg.removeClass('active-slide').css('z-index', -10);
-            prevImg.addClass('active-slide').css('z-index', 10);
-        }
+    $('.prev').on('click', function () {  //* er zit hier ergens nog een foutje in *//
+        $('.slider > div:last')
+            .fadeOut(1000)
+            .prev()
+            .fadeIn(1000)
+            .end()
+            .prependTo('.slider');
     });
     //einde code Ciro//
 
@@ -33,11 +41,10 @@ $(document).ready(function () {
             $(this).children('h2').stop().show().fadeTo("slow", 1);
         }
     )
-
+    //TABS == DIETER
     $('.tabs').cardTabs({ 'theme': 'themakleur' });
 
     //back-to-top == DIETER
-
     const backToTop = $('#back-to-top')
     backToTop.on('click', function () {
         $('html,body').animate({
@@ -52,10 +59,9 @@ $(document).ready(function () {
             backToTop.hide();
         }
     })
-    //socials == DIETER
+    //socials == DIETER//
     $('#share-bar').share({
         theme: 'square'
     });
-});
 
-
+    //Einde code Dieter// 
