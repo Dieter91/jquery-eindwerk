@@ -8,10 +8,10 @@ https://github.com/myspace-nu/jquery.fancyTable
 https://cardtabs.js.org/
 
 ==json/ajax op demo pagina / DIETER ==
-Gemaakt met behulp jquery cursus
+Zelf geschreven met behulp jquery cursus
 
 ==Features section / DIETER==
-Gemaakt met behulp jquery cursus
+Zelf geschreven met behulp jquery cursus
 
 ==Back to Top / Dieter==
 Zelf geschreven met behulp api
