@@ -261,7 +261,7 @@ nav ul {
 }
 /* einde code Dieter*/
 
-/* Footer Yens */
+/* Begin code Yens */
 .container_form {
   display: flex;
   flex-direction: row;
@@ -301,6 +301,10 @@ nav ul {
 }
 .container_right h2, p{
   color: white;
+}
+.container_right_in_container h5{
+  font-weight: bold;
+  font-size: 15px;
 }
 ::placeholder {
   font-style: verdana;

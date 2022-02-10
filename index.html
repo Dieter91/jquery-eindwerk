@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/jquery.cardtabs.css" />
   <link type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js">
 
   <link rel="stylesheet" type="text/css" href="css/jquery-social-share-bar.css">
 </head>
@@ -163,11 +163,22 @@
         <div class="container_right_in_container">
           <h2>Schrijf je in voor de cursus!</h2>
           <p>Vul hieronder je gegevens in</p>
-          <form id="myForm">
-            <input type="text" id="name" name="name" placeholder="Naam"><br><br>
-            <input type="email" id="email" name="email" placeholder="E-mailadres"><br><br>
-            <input type="text" id="telnr" name="telnr" placeholder="Telefoonnummer"><br><br>
-            <input class="knop" type="submit" value="Verzenden">
+          <form id="myForm" action="">
+            <p>
+              <label for="name">Name</label><br>
+              <input id="name" name="name" minlength="3" type="text">
+            </p>
+            <p>
+              <label for="email">E-Mail </label><br>
+              <input id="email" type="email" name="email">
+            </p>
+            <p>
+              <label for="number">Telnr </label><br>
+              <input id="number" type="text" minlength="8" name="number">
+            </p>
+            <p>
+              <input class="submit" type="submit" value="submit">
+            </p>
             <p id="succes">Bericht succesvol verzonden</p>
           </form>
 
@@ -209,7 +220,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"
     integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn"
     crossorigin="anonymous"></script>
-
+  <script src="./js/form_validation.js"></script>
+  <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
 </body>
 
 </html>

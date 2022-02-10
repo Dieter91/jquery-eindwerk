@@ -56,13 +56,6 @@ $(document).ready(function () {
     $('#share-bar').share({
         theme: 'square'
     });
-    //Begin code Yenss //
-    $('#succes').hide();
-    $(function () {
+});
 
-        // shows succes message
-        $('#myForm').ajaxForm(function () {
-            $('#succes').show();
-        });
-    });
-}); //Einde code Yens// 
+
