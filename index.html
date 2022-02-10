@@ -8,26 +8,8 @@
   <title>jQuery Cursus</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/jquery.cardtabs.css" />
+  <link rel="stylesheet" type="text/css" href="./css/jquery-social-share-bar.css">
   <link type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
-
-  <link rel="stylesheet" type="text/css" href="css/jquery-social-share-bar.css">
-  <style>
-    .slider-inner {
-      position: relative;
-      height: 450px;
-      overflow: hidden;
-    }
-
-    .slider-inner img {
-      width: 100vw;
-    }
-
-    .slider-inner>div {
-      position: absolute;
-
-    }
-  </style>
 </head>
 
 <body>
@@ -51,7 +33,7 @@
     <div class="container">
       <img src="images/arrow-left.png" class="prev" alt="Prev">
       <img src="images/arrow-right.png" class="next" alt="Next">
-      <div class="slider-inner">
+      <div class="slider">
         <div>
           <img src="images/header1.png">
         </div>
@@ -216,38 +198,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"
     integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn"
     crossorigin="anonymous"></script>
-
-  <script>
-    $(document).ready(function () {
-      $(".slider-inner > div:gt(0)").hide();
-
-      setInterval(function () {
-        $('.slider-inner > div:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('.slider-inner');
-      }, 6000);
-      $('.next').on('click', function () {
-        $('.slider-inner > div:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('.slider-inner');
-      });
-      $('.prev').on('click', function () {
-        $('.slider-inner > div:last')
-          .fadeOut(1000)
-          .prev()
-          .fadeIn(1000)
-          .end()
-          .prependTo('.slider-inner');
-      });
-    });
-  </script>
-
 </body>
 
 </html>
