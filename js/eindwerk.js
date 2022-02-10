@@ -18,10 +18,8 @@ $(document).ready(function () {
             prevImg.addClass('active-slide').css('z-index', 10);
         }
     });
-});
-//einde code Ciro//
+    //einde code Ciro//
 
-$(document).ready(function () {
     // FEATURES MOUSE OVER == DIETER
     $('.feature').hover(
         function () {
@@ -56,4 +54,14 @@ $(document).ready(function () {
     $('#share-bar').share({
         theme: 'square'
     });
+    //Begin code Yenss //
+    $('#succes').hide();
+    $(function () {
+
+        // shows succes message
+        $('#myForm').ajaxForm(function () {
+            $('#succes').show();
+        });
+    });
+    //Einde code Yens //
 });
