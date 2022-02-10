@@ -33,11 +33,10 @@ $(document).ready(function () {
             $(this).children('h2').stop().show().fadeTo("slow", 1);
         }
     )
-
+    //TABS == DIETER
     $('.tabs').cardTabs({ 'theme': 'themakleur' });
 
     //back-to-top == DIETER
-
     const backToTop = $('#back-to-top')
     backToTop.on('click', function () {
         $('html,body').animate({
