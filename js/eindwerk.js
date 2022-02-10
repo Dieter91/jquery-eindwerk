@@ -18,10 +18,10 @@ $(document).ready(function () {
             prevImg.addClass('active-slide').css('z-index', 10);
         }
     });
-});
-//einde code Ciro//
+    //einde code Ciro//
 
-$(document).ready(function () {
+
+
     // FEATURES MOUSE OVER == DIETER
     $('.feature').hover(
         function () {
@@ -47,12 +47,16 @@ $(document).ready(function () {
     $(window).on('scroll', function () {
         if ($(window).scrollTop() > 100) {
             backToTop.css('display', 'flex');
+
         } else {
             backToTop.hide();
         }
     })
-
-    //Begin code Yens //
+    //socials == DIETER
+    $('#share-bar').share({
+        theme: 'square'
+    });
+    //Begin code Yenss //
     $('#succes').hide();
     $(function () {
 
@@ -61,4 +65,4 @@ $(document).ready(function () {
             $('#succes').show();
         });
     });
-}); //Einde code Yens //
+}); //Einde code Yens// 
