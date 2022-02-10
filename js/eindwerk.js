@@ -18,37 +18,42 @@ $(document).ready(function () {
             prevImg.addClass('active-slide').css('z-index', 10);
         }
     });
-});
-//einde code Ciro//
+    //einde code Ciro//
 
-// FEATURES MOUSE OVER == DIETER
-$('.feature').hover(
-    function () {
-        $(this).children('.info').stop().show().fadeTo("slow", 1);
-        $(this).children('h2').stop().hide().fadeTo("slow", 0).hide();
-    },
-    function () {
-        $(this).children('.info').stop().fadeTo("slow", 0).hide();
-        $(this).children('h2').stop().show().fadeTo("slow", 1);
-    }
-)
+    // FEATURES MOUSE OVER == DIETER
+    $('.feature').hover(
+        function () {
+            $(this).children('.info').stop().show().fadeTo("slow", 1);
+            $(this).children('h2').stop().hide().fadeTo("slow", 0).hide();
+        },
+        function () {
+            $(this).children('.info').stop().fadeTo("slow", 0).hide();
+            $(this).children('h2').stop().show().fadeTo("slow", 1);
+        }
+    )
 
-$('.tabs').cardTabs({ 'theme': 'themakleur' });
+    $('.tabs').cardTabs({ 'theme': 'themakleur' });
 
-//back-to-top == DIETER
+    //back-to-top == DIETER
 
-const backToTop = $('#back-to-top')
-backToTop.on('click', function () {
-    $('html,body').animate({
-        scrollTop: 0
-    }, 500);
-})
-$(window).on('scroll', function () {
-    if ($(window).scrollTop() > 100) {
-        backToTop.css('display', 'flex');
-    } else {
-        backToTop.hide();
-    }
+    const backToTop = $('#back-to-top')
+    backToTop.on('click', function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 500);
+    })
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 100) {
+            backToTop.css('display', 'flex');
+
+        } else {
+            backToTop.hide();
+        }
+    })
+    //socials == DIETER
+    $('#share-bar').share({
+        theme: 'square'
+    });
     //Begin code Yenss //
     $('#succes').hide();
     $(function () {
