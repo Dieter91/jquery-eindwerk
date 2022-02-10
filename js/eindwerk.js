@@ -49,7 +49,7 @@ $(window).on('scroll', function () {
     } else {
         backToTop.hide();
     }
-    //Begin code Yens //
+    //Begin code Yenss //
     $('#succes').hide();
     $(function () {
 
