@@ -222,9 +222,7 @@ nav ul {
   color: white;
   text-decoration: none;
 }
-/* einde code Yens*/
-
-/* Footer Yens */
+/* begin code Yens*/
 .container_form {
   display: flex;
   flex-direction: row;
@@ -255,7 +253,7 @@ nav ul {
   padding-left: 300px;
   
 }
-.container_right button{
+.knop{
   margin-top: 15px;
   background-color: grey;
   color: white;
@@ -274,7 +272,7 @@ input {
   width: 230px;
   padding: 5px; 
 }
-
+/* Footer Yens */
 .footer_container {
   display: flex;
   flex-direction: row;
