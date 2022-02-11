@@ -22,5 +22,11 @@
         "info": "Captain Planet, he's a hero!",
         "link": "planetarium.html",
         "img": "../images/demos/planetarium.png"
+    },
+    {
+        "naam": "row grid plugin",
+        "info": "een plugin voor bv. een gallerij mooi gestructureerd op te bouwen",
+        "link": "galleryplugin.html",
+        "img": "../images/rowgrid.png"
     }
 ]
