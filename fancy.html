@@ -144,38 +144,7 @@
   <script>window.jQuery || document.write('<script src="js/jquery-3.6.0.min.js"><\/script>')</script>
   <script type="text/javascript" src="js/jquery-social-share-bar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery.fancytable/dist/fancyTable.min.js"></script>
-
-  <script>
-    $(document).ready(function () {
-
-      $(".table").fancyTable({
-        sortColumn: 0,
-        sortOrder: 'descending',
-        sortable: true,
-        pagination: true,
-        inputStyle: 'color:green;',
-        globalSearch: true,
-        matchCase: true,
-        inputPlaceholder: 'Zoeken',
-        paginationClass: 'btn btn-secondary',
-        paginationClassActive: "btn-dark",
-        perPage: '6',
-        onUpdate: function () {
-          let msg = $('.msg');
-          let input = $('input');
-          if ($('tbody').children(':visible').length == 0) {
-            msg.text('Geen zoekresultaten!');
-            msg.css('display', 'block');
-            input.css('color', 'red');
-          } else {
-            msg.text('');
-            msg.css('display', 'none');
-            input.css('color', 'green');
-          }
-        }
-      });
-    })
-  </script>
+  <script src="js/eindwerk.js"></script>
 </body>
 
 </html>
