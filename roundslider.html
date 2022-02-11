@@ -58,15 +58,9 @@
 <body>
 
     <div id="slider"></div>
-
-
-
-
-
-
     <script>
         $(document).ready(function () {
-
+            // begin code Yens
             $("#slider").roundSlider({
                 sliderType: "min-range",
                 editableTooltip: false,
@@ -87,11 +81,6 @@
                 mouseScrollAction: true
             });
 
-
-            function drag() {
-                $('#slider .rs-range-color').css('background-color', 'yellow')
-            }
-
             function changeTooltip(e) {
                 var val = e.value, speed;
                 if (val < 20) speed = "Slow";
@@ -101,7 +90,7 @@
 
                 return val + " km/h" + "<div>" + speed + "<div>";
             }
-        });
+        }); // einde code Yens
     </script>
 </body>
 
