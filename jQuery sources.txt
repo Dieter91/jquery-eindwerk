@@ -45,4 +45,7 @@ https://malsup.com/jquery/form/ (uiteindelijk toch niet gekozen, omdat er een pr
 ==jquery rowGrid.js plugin Yens==
 https://brunjo.github.io/rowGrid.js/
 
+==jquery vide plugin Yens==
+https://vodkabears.github.io/vide/
+
 
