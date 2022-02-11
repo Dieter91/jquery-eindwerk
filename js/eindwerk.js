@@ -71,12 +71,18 @@ $(document).ready(function () {
     $(".container_galerij").rowGrid(options);
 
     $('.banner_contact').vide('./images/codingvid.mp4', {
-        volume: 1,
-        playbackRate: 1,
         muted: true,
         loop: true,
-        autoplay: true,
-        position: '50% 50%'
+        autoplay: true
+    });
+
+    $('.container li a').hover({
+        function() {
+            $(this).css('background-color', '#ffff');
+        },
+        function() {
+            $(this).animate({ right: "100px" });
+        }
     });
 });
 
