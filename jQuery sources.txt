@@ -28,3 +28,12 @@ https://textillate.js.org/
 
 ==Planetarium / Ciro==
 https://github.com/peachananr/planetarium
+
+== RoundSlider / Yens==
+https://roundsliderui.com/
+
+==jquery validation plugin / Yens==
+https://jqueryvalidation.org/
+
+==jquery form plugin / Yens==
+https://malsup.com/jquery/form/
