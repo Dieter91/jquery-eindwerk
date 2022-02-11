@@ -36,4 +36,9 @@ https://roundsliderui.com/
 https://jqueryvalidation.org/
 
 ==jquery form plugin / Yens==
-https://malsup.com/jquery/form/
+https://malsup.com/jquery/form/ (uiteindelijk toch niet gekozen, omdat er een probleem niet opgelost geraakte)
+
+==jquery rowGrid.js plugin Yens==
+https://brunjo.github.io/rowGrid.js/
+
+
