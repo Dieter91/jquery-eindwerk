@@ -424,11 +424,10 @@ footer {
 /* INSCHRIJVING PAGINA */
 /* Begin code Yens */
 .banner_contact{
-  background-image: url("../images/headers/header_contact.jpg") ;
+
   width: 100%;
   height: 400px;
-  background-position: center;
-  background-size: cover;
+ 
   margin-top: -1.5%;
 }
 .banner_contact h1 {
