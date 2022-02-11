@@ -4,6 +4,7 @@ $(document).ready(function () {
         $('.jq-text').removeClass('hidden');
     }, 500);
     //Banner Slider == Ciro//
+
     $(".slider > div:gt(0)").hide();
 
     setInterval(function () {
@@ -80,14 +81,7 @@ $(document).ready(function () {
         autoplay: true
     });
 
-    $('.container li a').hover({
-        function() {
-            $(this).css('background-color', '#ffff');
-        },
-        function() {
-            $(this).animate({ right: "100px" });
-        }
-    });
+
 });
 
     // Einde code Yens//

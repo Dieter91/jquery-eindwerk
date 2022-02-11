@@ -1,3 +1,4 @@
+<!--Yens code-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +7,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <p>Het formulier is verzonden</p>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>jQuery</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="demos.html">Demo's</a></li>
+                <li><a href="inschrijven.html">Inschrijven</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p id="succes_tekst"></p>
+    <img id="dankje">
+    <footer>
+        <div class="footer_container">
+            <div class="footer_container1">
+                <img src="images/logo.png" alt="logo vschool">
+            </div>
+            <div class="footer_container2">
+                <h2>Pagina's</h2>
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="demos.html">Demo's</a>
+                    <a href="inschrijven.html">Inschrijven</a>
+                </ul>
+            </div>
+            <div class="footer_container3">
+                <h2>Contacteer ons</h2>
+                <ul>
+                    <a href="tel:0488277995">0488277995</a>
+                    <a href="https://goo.gl/maps/EqemLxUXBhSnnkXg7">Schachtplein 1, 3550 Heusden-Zolder</a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/eindwerk.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#succes_tekst').append('Het formulier is succesvol verzonden!')
+
+            $('#dankje').attr("src", "images/dankje.png");
+        });
+    </script>
 </body>
 
 </html>
