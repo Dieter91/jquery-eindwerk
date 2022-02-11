@@ -339,14 +339,18 @@ input {
   list-style-type: none;
   padding-left: 0px;
 }
-.footer_container2 li,
-.footer_container3 li {
+.footer_container2 ul a,
+.footer_container3 ul a {
   padding-top: 10px;
   color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
 }
-.footer_container2 li:first-child,
-.footer_container3 li:first-child {
+.footer_container2 a:first-child,
+.footer_container3 a:first-child {
   padding-top: 0px;
+  
 }
 
 .footer_container3 {
