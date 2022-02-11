@@ -76,14 +76,6 @@ $(document).ready(function () {
         autoplay: true
     });
 
-    $('.container li a').hover({
-        function() {
-            $(this).css('background-color', '#ffff');
-        },
-        function() {
-            $(this).animate({ right: "100px" });
-        }
-    });
 });
 
     // Einde code Yens//
