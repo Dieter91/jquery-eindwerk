@@ -23,11 +23,15 @@ https://www.youtube.com/watch?v=YazLHuazvgk&t=615s  (kreeg ik niet aan het werk)
 https://skitter-slider.net/  (wat complexere plugin, maar niet gekozen vanwege aantal reeds gebruikte plug-ins)
 https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/ (uiteindelijk deze als basis gebruikt met wat custom made/zelfgeschreven script erbij)
 
+==JQUERY-Text / Ciro==
+Zelf geschreven met behulp van jquery en html cursussen
+
 ==Textillate / Ciro==
 https://textillate.js.org/
 
 ==Planetarium / Ciro==
 https://github.com/peachananr/planetarium
+
 
 == RoundSlider / Yens==
 https://roundsliderui.com/

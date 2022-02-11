@@ -12,7 +12,68 @@
   <link type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js">
 
+  <style type="text/css">
+    .jq-text {
+      list-style: none;
+      position: absolute;
+      top: 28%;
+      left: 50%;
 
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    .jq-text li {
+      display: inline-block;
+      margin-right: 50px;
+      font-family: Open Sans, Arial;
+      font-weight: 500;
+      font-size: 4em;
+      color: white;
+      opacity: 1;
+      transition: all 2.5s ease;
+    }
+
+    .pink {
+      color: #ef3455;
+    }
+
+    .jq-text li:last-child {
+      margin-right: 0;
+    }
+
+    .jq-text.hidden li {
+      opacity: 0;
+    }
+
+    .jq-text.hidden li:nth-child(1) {
+      transform: translateX(-200px) translateY(-200px);
+    }
+
+    .jq-text.hidden li:nth-child(2) {
+      transform: translateX(20px) translateY(100px);
+    }
+
+    .jq-text.hidden li:nth-child(3) {
+      transform: translateX(-150px) translateY(-80px);
+    }
+
+    .jq-text.hidden li:nth-child(4) {
+      transform: translateX(10px) translateY(-200px);
+    }
+
+    .jq-text.hidden li:nth-child(5) {
+      transform: translateX(-300px) translateY(200px);
+    }
+
+    .jq-text.hidden li:nth-child(6) {
+      transform: translateX(20px) translateY(-20px);
+    }
+
+    .jq-text.hidden li:nth-child(7) {
+      transform: translateX(30px) translateY(200px);
+    }
+  </style>
+</head>
 
 <body>
 
@@ -103,6 +164,20 @@
     </div>
   </section>
   <!--EINDE INFO DIETER-->
+  <!-- JQUERY TEXT == CIRO -->
+  <section>
+    <ul class="jq-text hidden">
+      <li>J</li>
+      <li>
+        <div class="pink">Q</div>
+      </li>
+      <li>U</li>
+      <li>E</li>
+      <li>R</li>
+      <li>Y</li>
+    </ul>
+  </section>
+  <!-- EINDE JQUERY TEXT CIRO-->
   <!-- FEATURES == DIETER -->
   <section id="features">
     <div class="container">
