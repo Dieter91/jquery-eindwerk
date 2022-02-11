@@ -23,6 +23,9 @@
         </div>
     </nav>
     <section>
+        <div class="banner_contact">
+            <h1>Inschrijven</h1>
+        </div>
         <div class="container_form">
             <div class="container_left">
             </div>
@@ -30,12 +33,25 @@
                 <div class="container_right_in_container">
                     <h2>Schrijf je in voor de cursus!</h2>
                     <p>Vul hieronder je gegevens in</p>
-                    <form action="">
-                        <input type="text" id="name" name="name" placeholder="Naam"><br><br>
-                        <input type="email" id="email" name="email" placeholder="E-mailadres"><br><br>
-                        <input type="text" id="telnr" name="telnr" placeholder="Telefoonnummer">
+                    <form id="myForm" action="message.html">
+                        <p>
+                            <label for="name">Naam</label><br>
+                            <input id="name" name="name" minlength="3" type="text">
+                        </p>
+                        <p>
+                            <label for="email">E-Mail </label><br>
+                            <input id="email" type="email" name="email">
+                        </p>
+                        <p>
+                            <label for="number">Telnr </label><br>
+                            <input id="number" type="text" minlength="8" name="number">
+                        </p>
+
+                        <p>
+                            <input class="submit" type="submit" value="Verzenden" href="message.html">
+                        </p>
+                        <p id="succes">Bericht succesvol verzonden</p>
                     </form>
-                    <button onclick="window.location.href='https:/google.com';">Verzenden</button>
                 </div>
             </div>
         </div>
@@ -63,7 +79,9 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/form_validation.js"></script>
 </body>
 
 </html>
