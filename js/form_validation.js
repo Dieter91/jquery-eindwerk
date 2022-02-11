@@ -16,10 +16,25 @@ $(document).ready(function () {
                 email: true
             },
             number: {
+                number: true,
                 required: true,
                 minlength: 8
+
             },
         },
+        messages: {
+            name: {
+                minlength: "Naam moet minimum 3 karakters bevatten"
+            },
+            email: {
+                email: "De e-mail moet deze syntax bevatten: abc@domein.com"
+            },
+            number: {
+                number: "vul alleen nummers in",
+                minlength: "Telefoonnummer moet minimum 8 cijfers bevatten"
+            }
+
+        }
     });
 
     // Succesvol verzonden bericht
