@@ -36,15 +36,6 @@ $(document).ready(function () {
 
         }
     });
-
-    // Succesvol verzonden bericht
-    (function () {
-
-        $('#myForm').ajaxForm(function () {
-            $('#succes').show();
-        });
-
-    });
 });
 
 
