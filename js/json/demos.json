@@ -12,10 +12,10 @@
         "img": "../images/demos/fancy.jpg"
     },
     {
-        "naam": "Yens",
-        "info": "Een plug-in voor talloze text-animaties!",
-        "link": "textillate.html",
-        "img": "../images/demos/textillate.png"
+        "naam": "Roundslider",
+        "info": "Een plug-in een waarde in een cirkel te doen weergeven",
+        "link": "roundslider.html",
+        "img": "../images/demos/roundslider.png"
     },
     {
         "naam": "Planetarium",
