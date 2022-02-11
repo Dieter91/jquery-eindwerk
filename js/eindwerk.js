@@ -1,9 +1,9 @@
-//begin code Ciro//
+//JQUERY text == Ciro//
 $(document).ready(function () {
     setTimeout(function () {
         $('.jq-text').removeClass('hidden');
     }, 500);
-
+    //Banner Slider == Ciro//
     $(".slider > div:gt(0)").hide();
 
     setInterval(function () {
