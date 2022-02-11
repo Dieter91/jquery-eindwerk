@@ -73,8 +73,4 @@ $(document).ready(function () {
         loop: true,
         autoplay: true
     });
-
-
 });
-    // zelfgeschreven code van form validation staat in form_validation.js
-    // Einde code Yens//

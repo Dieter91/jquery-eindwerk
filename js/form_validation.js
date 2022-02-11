@@ -41,3 +41,6 @@ $(document).ready(function () {
 
 
 //einde code yens
+
+// zelfgeschreven code van form validation staat in form_validation.js
+// Einde code Yens//
