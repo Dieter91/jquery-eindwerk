@@ -1,9 +1,5 @@
 //begin code Ciro//
 $(document).ready(function () {
-    setTimeout(function () {
-        $('.jq-text').removeClass('hidden');
-    }, 500);
-
     $(".slider > div:gt(0)").hide();
 
     setInterval(function () {
@@ -79,6 +75,7 @@ $(document).ready(function () {
         loop: true,
         autoplay: true
     });
+
 
 });
 

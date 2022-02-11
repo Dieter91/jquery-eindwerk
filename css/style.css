@@ -500,4 +500,20 @@ footer {
   font-size: 35px;
   text-shadow: 2px 2px 8px black;
 }
+/* succesvol verzonden form pagina */
+#succes_tekst {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+#dankje {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  
+}
 /* einde code Yens*/
+
+
