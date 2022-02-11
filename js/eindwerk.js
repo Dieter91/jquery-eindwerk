@@ -205,7 +205,6 @@ $(function () {
             shuffle: false,
             reverse: true,
         },
-
         out: {
             effect: 'hinge',
             delayScale: 1.5,
@@ -214,10 +213,8 @@ $(function () {
             shuffle: true,
             reverse: false,
         },
-
         callback: function () { },
         type: 'char'
-
     });
 });
 /* einde code Ciro */
