@@ -1,10 +1,5 @@
-//JQUERY text == Ciro//
+//begin code Ciro//
 $(document).ready(function () {
-    setTimeout(function () {
-        $('.jq-text').removeClass('hidden');
-    }, 500);
-    //Banner Slider == Ciro//
-
     $(".slider > div:gt(0)").hide();
 
     setInterval(function () {
@@ -72,8 +67,6 @@ $(document).ready(function () {
     //Einde code Dieter// 
     // Begin code Yens//
 
-    var options = { minMargin: 5, maxMargin: 15, itemSelector: ".item", firstItemClass: "first-item" };
-    $(".container_galerij").rowGrid(options);
 
     $('.banner_contact').vide('./images/codingvid.mp4', {
         muted: true,
@@ -83,5 +76,5 @@ $(document).ready(function () {
 
 
 });
-
+    // zelfgeschreven code van form validation staat in form_validation.js
     // Einde code Yens//
