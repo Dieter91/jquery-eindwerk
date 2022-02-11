@@ -68,8 +68,16 @@ $(document).ready(function () {
     // Begin code Yens//
 
     var options = { minMargin: 5, maxMargin: 15, itemSelector: ".item", firstItemClass: "first-item" };
-    $(".container_galerij").rowGrid(options{});
+    $(".container_galerij").rowGrid(options);
 
+    $('.banner_contact').vide('./images/codingvid.mp4', {
+        volume: 1,
+        playbackRate: 1,
+        muted: true,
+        loop: true,
+        autoplay: true,
+        position: '50% 50%'
+    });
 });
 
     // Einde code Yens//
