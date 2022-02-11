@@ -40,8 +40,4 @@ $(document).ready(function () {
 
 
 
-
-
-
-
 //einde code yens

@@ -68,7 +68,7 @@ $(document).ready(function () {
     // Begin code Yens//
 
     var options = { minMargin: 5, maxMargin: 15, itemSelector: ".item", firstItemClass: "first-item" };
-    $(".container_galerij").rowGrid(options);
+    $(".container_galerij").rowGrid(options{});
 
 });
 
