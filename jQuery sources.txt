@@ -24,7 +24,7 @@ https://skitter-slider.net/  (wat complexere plugin, maar niet gekozen vanwege a
 https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/ (uiteindelijk deze als basis gebruikt met wat custom made/zelfgeschreven script erbij)
 
 ==JQUERY-Text / Ciro==
-Zelf geschreven met behulp van jquery en html cursussen
+Zelf geschreven met behulp van jquery en html/css advanced cursussen
 
 ==Textillate / Ciro==
 https://textillate.js.org/
