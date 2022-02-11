@@ -73,6 +73,69 @@ nav ul {
 }
 /*Einde code Dieter */
 
+/*JQ Text -Ciro*/
+.jq-text {
+  list-style: none;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.jq-text li {
+  display: inline-block;
+  margin-right: 50px;
+  font-family: Open Sans, Arial;
+  font-weight: 500;
+  font-size: 4em;
+  color: #AAA;
+  opacity: 1;
+  transition: all 2.5s ease;
+}
+
+.pink {
+  color: #ef3455;
+}
+
+.jq-text li:last-child {
+  margin-right: 0;
+}
+
+.jq-text.hidden li {
+  opacity: 0;
+}
+
+.jq-text.hidden li:nth-child(1) {
+  transform: translateX(-200px) translateY(-200px);
+}
+
+.jq-text.hidden li:nth-child(2) {
+  transform: translateX(20px) translateY(100px);
+}
+
+.jq-text.hidden li:nth-child(3) {
+  transform: translateX(-150px) translateY(-80px);
+}
+
+.jq-text.hidden li:nth-child(4) {
+  transform: translateX(10px) translateY(-200px);
+}
+
+.jq-text.hidden li:nth-child(5) {
+  transform: translateX(-300px) translateY(200px);
+}
+
+.jq-text.hidden li:nth-child(6) {
+  transform: translateX(20px) translateY(-20px);
+}
+
+.jq-text.hidden li:nth-child(7) {
+  transform: translateX(30px) translateY(200px);
+}
+
+/*Eind code Ciro*/
+
 /* Features - Dieter */
 #features {
   width: 80%;
